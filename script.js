@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to handle button click
     function handleIncrementClick() {
         // Display an alert with the un-incremented value
-        alert("Un-incremented Value: " + counterValue);
+        alert(counterValue);
 
         // Increment the counter value
         counterValue++;
